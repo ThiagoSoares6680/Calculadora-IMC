@@ -1,29 +1,38 @@
-.container {
-    background-color: black;
-    color: white;
-    position: absolute;
-    top: 30%;
-    left: 45%;
+body {
+    background-color:white;
+    text-align: center;
+    font: normal 12pt Arial;
+}
+section {
+    position:relative;
+    top: 150px;
+    text-align: center;
+    background:  black;
+    padding: 40px;
+    width: 350px;
+    margin: auto;
     border-radius: 10px;
-    padding: 20px;
-
+    font: normal 12pt Arial;
 }
-.botao {
-    width: 70px;
-    height: 40px;
-    font-size: 15px;
-    margin: 4px;
-    cursor: pointer;
-    background-color: rgb(191, 92, 31);
+#botao {
+    position: relative;
+    padding: 15px;
+    top: 15px;
+    border-radius: 6px;
+    background-color: #ff9500;
     color: white;
-    border-radius: 15%;
-    box-shadow: rgba(0, 0, 0, 0.091);
+    width: 100%;
 }
-.botao:hover {
-    background-color: black;
+input {
+    border-radius: 6px;
+    padding: 10px;
+    
 }
-.caixa {
-    border-radius: 5%;
-    font-size: 15px;
-    height: 25px;
+h2{
+    color: white;
+    position: relative;
+    top: -30px;
+}
+h3{
+    color: white;
 }

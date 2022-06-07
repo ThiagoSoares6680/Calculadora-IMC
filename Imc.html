@@ -5,23 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet" href="./Estilo.css">
+    <script src="./funcionalidades.js"></script>
     <title>Calculo IMC</title>
 </head>
 <body>
-    <div class="container">
-    <h1>Calculadora IMC</h1>
-    <div class="area">
-        <h2>Altura</h2>
-        <input class="caixa" type="numero">
-    </div>
-    <div class="area">
-        <h2>Peso</h2>
-        <input class="caixa" type="numero">
-        <button class="botao">Calcular</button>
-    </div>
-    </div>
-    <script>
-        
-    </script>
+    <section>
+        <div>
+            <H2>Calculadora IMC</h2>
+            <h3>Altura (metros e cm)</h3>
+            <input name="alt" id="altura" type="number" >
+            <h3>Peso (Kg)</h3><br>
+            <input name="pes" id="peso" type="number"><BR>
+            <button id="botao" type="button" value="Calcular" onclick="calcular()">Calcular</button>
+        </div>
+    </section>
 </body>
 </html>
